@@ -12,10 +12,7 @@ databaseChangeLog:
                   autoIncrement: true
                   constraints:
                     primaryKey: true
-                    nullable: true
+                    nullable: false
               - column:
                   name: title
-                  type: varchar(255)
-              - column:
-                  name: actors
                   type: varchar(255)
